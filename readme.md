@@ -14,4 +14,4 @@ Mysql, Oracle 2개의 DB로 풀었습니다.
 ## 1) 규칙
 [alias](https://github.com/skyepodium/sql-for-database/tree/main/tip/rule/alias.md)
 
-[limit-lownum](https://github.com/skyepodium/sql-for-database/tree/main/tip/rule/limit-lownum.md)
+[LIMIT-ROWNUM](https://github.com/skyepodium/sql-for-database/tree/main/tip/rule/limit-rownum.md)
