@@ -1,7 +1,7 @@
 # 별칭
 
 # 1.  MySql
-as 키워드로 명시하거나 생략할 수 있습니다.
+`as` 키워드로 명시하거나 생략할 수 있습니다.
 ```sql
 SELECT
         p.firstName
