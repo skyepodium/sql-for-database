@@ -1,8 +1,11 @@
-# limit, rownum
+# 1. 설명
+상위 N개의 레코드를 조회하세요
 
-# 1.  MySql
-limit 을 사용합니다.
+[문제 링크](https://programmers.co.kr/learn/courses/30/lessons/59405)
 
+
+# 2. 코드
+### 1) MySql
 ```sql
 SELECT 
     NAME
@@ -13,9 +16,7 @@ ORDER BY
 LIMIT 1
 ```
 
-# 2. Oracle
-전체 결과를 한번 감싼 후 `ROWNUM`으로 구분합니다.
-
+### 2) Oracle
 ```sql
 SELECT 
     *
