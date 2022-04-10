@@ -16,7 +16,6 @@ FROM
     Employee as b
         on a.managerId = b.id
         AND a.salary > b.salary
-    
 ```
 
 ### 2) Oracle
