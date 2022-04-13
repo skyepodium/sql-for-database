@@ -1,0 +1,23 @@
+# 1. 설명
+쇼핑몰의 일일 매출액을 구하세요
+
+[문제 링크](https://solvesql.com/problems/olist-daily-revenue/)
+
+
+# 2. 코드
+### 1) SQLite
+```sql
+SELECT
+    DATE(OOD.ORDER_PURCHASE_TIMESTAMP) DT
+  , ROUND(SUM(OOPD.PAYMENT_VALUE), 2) REVENUE_DAILY
+FROM 
+  OLIST_ORDERS_DATASET OOD
+    INNER JOIN
+  OLIST_ORDER_PAYMENTS_DATASET OOPD
+    ON OOD.ORDER_ID = OOPD.ORDER_ID
+    AND OOD.ORDER_PURCHASE_TIMESTAMP >= '2018-01-01'
+GROUP BY
+  DT
+ORDER BY
+  DT ASC
+```

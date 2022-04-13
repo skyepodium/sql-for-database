@@ -7,7 +7,9 @@ Mysql, Oracle 2개의 DB로 풀었습니다.
 
 [리트코드](https://github.com/skyepodium/sql-for-database/tree/main/leetcode)   
 
-[프로그래머스](https://github.com/skyepodium/sql-for-database/tree/main/programmers)            
+[프로그래머스](https://github.com/skyepodium/sql-for-database/tree/main/programmers)   
+
+[solvesql](https://github.com/skyepodium/sql-for-database/tree/main/solvesql)     
           
 
 # 팁
