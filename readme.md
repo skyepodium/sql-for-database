@@ -15,3 +15,5 @@ Mysql, Oracle 2개의 DB로 풀었습니다.
 [alias](https://github.com/skyepodium/sql-for-database/tree/main/tip/rule/alias.md)
 
 [LIMIT-ROWNUM](https://github.com/skyepodium/sql-for-database/tree/main/tip/rule/limit-rownum.md)
+
+[0~23 숫자 연속으로 출력하기](https://github.com/skyepodium/sql-for-database/tree/main/tip/rule/range.md)
